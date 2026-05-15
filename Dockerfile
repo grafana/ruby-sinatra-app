@@ -1,4 +1,4 @@
-FROM ruby:2.7.2-alpine
+FROM ruby:4.0.3-alpine@sha256:2c041dcda87517d61ecd3b65832e6433384f8bdfec5b49d07de7f9a84e94f09b
 
 COPY Gemfile Gemfile.lock app.rb config.ru /srv/app/
 WORKDIR /srv/app
