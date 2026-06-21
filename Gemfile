@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.7.2"
+ruby "4.0.5"
 
 gem "sinatra"
 gem "prometheus-client"
